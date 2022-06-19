@@ -1,0 +1,144 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+    
+}
+
+#bff-img {
+    width: 400px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 100px #ccc;
+    border-radius: 10px;
+    background: black;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.flex {
+    box-shadow: 5px 5px 50px #ccc;
+    border-radius: 10px;
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    font-weight: bolder;
+    background: black;
+}
+
+#flex:hover {
+    background: url("https://media.giphy.com/media/ji0MU8XKv9mVusEx6W/giphy.gif");
+    background-size: cover;
+}
+
+#flex2:hover {
+    background: url("https://media.giphy.com/media/hFDNwmMMKrBrhhVYAu/giphy.gif");
+    background-size: cover;
+}
+
+#flex3:hover {
+    background: url("https://media.giphy.com/media/3osxYzg6MeZDCD6vUQ/giphy.gif");
+    background-size: cover;
+}
+
+.gift-img2 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    max-width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    background: black;
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/L0TkrErbMuGHiV4Tzn/giphy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("images/genius.gif");
+}
+
+#gift-img-event:hover {
+    background-image: url("https://media.giphy.com/media/89WkK5GzSgYaA/giphy.gif");
+}
+
+#gift-img-enjoy:hover {
+    background-image: url("https://media.giphy.com/media/xUNd9KFXhJTJJvUa2c/giphy.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/8Iv5lqKwKsZ2g/giphy.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
